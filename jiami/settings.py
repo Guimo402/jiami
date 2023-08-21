@@ -9,6 +9,7 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
+
 import os
 from pathlib import Path
 
@@ -20,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-#k#yoa3qh-n+k61is&tp4nlf-2ps5j0hvn*lu3r6_8dw6*anl7'
+SECRET_KEY = 'django-insecure--^3(*&9@4%)%-(hp4@p&nn3ynuv5jm5*0%*ax^_a$tdu+m)@7w'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
