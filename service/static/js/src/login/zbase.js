@@ -2,7 +2,6 @@ class JmSvLogin {
     constructor(root) {
         this.root = root;
         this.$login = $(`
-<body>
 <br><br><br><br>
 <div class="container">
     <h2>用户登录</h2>
@@ -27,8 +26,7 @@ class JmSvLogin {
 </body>
         
 `);
-
-        this.hide();
+        
         this.root.$jm_sv.append(this.$login);
         this.$sign = this.$login.find('.form-sign');
 

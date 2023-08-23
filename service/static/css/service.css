@@ -18,8 +18,18 @@
 
 
 /* 激活的导航链接样式 */
-.navbar a.navbar-item-login {
+.navbar a.navbar-item-service {
     background-color: #4CAF50;
+    cursor: pointer;
+}
+
+.navbar a.navbar-item-logout {
+    cursor: pointer;
+    color: #337ab7;
+}
+
+.navbar a.navbar-item-about {
+    cursor: pointer;
 }
 
 body {
@@ -100,3 +110,117 @@ text-align: center;
     border-radius: 4px;
     cursor: pointer;
 }
+
+.jm-sv-settings {
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    user-select: none;
+}
+
+.jm-sv-settings-login {
+    height: 41vh;
+    width: 20vw;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+}
+
+
+.jm-sv-settings-title {
+    color: white;
+    font-size: 3vh;
+    text-align: center;
+    padding-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.jm-sv-settings-username {
+    display: block;
+    height: 7vh;
+}
+
+.jm-sv-settings-password {
+    display: block;
+    height: 7vh;
+}
+
+.jm-sv-settings-submit {
+    display: block;
+    height: 7vh;
+}
+
+.jm-sv-settings-item {
+    width: 100%;
+    height: 100%;
+}
+
+.jm-sv-settings-item > input {
+    width: 90%;
+    line-height: 3vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.jm-sv-settings-item > button {
+    color: white;
+    width: 90%;
+    line-height: 3vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+
+.jm-sv-settings-error-message {
+    color: red;
+    font-size: 0.8vh;
+    display: inline;
+    float: left;
+    padding-left: 1vw;
+}
+
+.jm-sv-settings-option {
+    color: white;
+    font-size: 2vh;
+    display: inline;
+    float: right;
+    padding-right: 1vw;
+    cursor: pointer;
+}
+
+.jm-sv-settings-acwing > img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    display: block;
+}
+
+.jm-sv-settings-acwing > div {
+    color: white;
+    font-size: 1.5vh;
+    text-align: center;
+    display: block;
+}
+
+.jm-sv-settings-register {
+    height: 49vh;
+    width: 20vw;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+}
+
+
